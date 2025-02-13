@@ -16,7 +16,7 @@
 }
 .email,.start,.products{
     text-decoration: none;
-    color: black;     
+    color: rgb(167, 132, 87);     
 }
 .nav-items :hover{
     text-decoration-line: underline;
