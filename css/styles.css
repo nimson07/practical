@@ -4,6 +4,11 @@
     margin-right: auto;
     margin-top: 1%;
 }
+.logo{
+    width: 40px;
+    margin: 0%;
+    padding: 0%;
+}
 .nav-bar{
     display: flex;
     justify-content: space-between;
@@ -38,21 +43,28 @@
     height: 140px;
 }
 .byline{
-    color: rgb(167, 132, 87);
+    color: #7D401C;
+    font-size: 70px;
+    position: absolute;
+    top: 270px;
+    left: 500px;
+}
+.gt{
+    color: #7D401C;
 }
 .first-images{
     display: flex;
     gap: 10px;
 }
 .k2{
-    width:150px; 
-    height:270px;
+    width:170px; 
+    height:290px;
     border-top-right-radius: 40px;
     border-bottom-left-radius: 40px;
 }
 .k3{
-    width:150px; 
-    height:270px;
+    width:170px; 
+    height:290px;
     border-top-left-radius: 40px;
     border-bottom-right-radius: 40px;
 }
@@ -72,19 +84,113 @@
    height: 30vh;
    display: flex;
    justify-content: space-between;
+   align-items: center;
 }
 .inspired{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    gap: 8px;
 }
 .get{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    gap: 8px;
 }
 .brand{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    gap: 8px;
+}
+.journey{
+    height: 70vh;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subjy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: white;
+    width: 70%;
+    height: 45vh;
+    border-radius: 10px;
+}
+.gets{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.gets h1{
+    font-size: 30px;
+}
+.gets p{
+    font-size: 18px;
+}
+.sn{
+    width: 120px;
+    height: 50px;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: black;
+    background-color:transparent ;
+}
+.sn:hover{
+    cursor: pointer;
+}
+.package{
+    height: 60vh;
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.pack{
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    color: rgba(255, 255, 255, 0.808);
+    flex-direction: column;
+    align-items: left;
+}
+.bp{
+    width: 30vw;
+    height: 30vh;
+}
+.jt{
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.795);
+} 
+.address{
+    height: 30vh;
+    width: 20vw;
+}
+.num{
+    width: 20vw;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+.foll{
+    width: 20vw;
+}                                                      
+.icons{
+    display: flex;
+    gap: 20px;
+}                                                      
+.fb, .yt, .tt{
+    color: white;
+}
+.lgi{
+    color: white;
 }
